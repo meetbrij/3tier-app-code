@@ -14,7 +14,7 @@ sudo dnf install git -y
 #!/bin/bash
 sudo systemctl start httpd
 cd /var/www/html
-sudo git clone https://github.com/ajitinamdar-tech/three-tier-architecture-aws.git
+sudo git clone https://github.com/meetbrij/3tier-app-code.git
 sudo mkdir api
 sudo mv /var/www/html/three-tier-architecture-aws/backend/api/* /var/www/html/api/
 sudo rm -rf /var/www/html/three-tier-architecture-aws
