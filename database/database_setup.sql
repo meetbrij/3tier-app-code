@@ -1,8 +1,8 @@
 -- database_setup.sql
 
 -- Create database
-CREATE DATABASE IF NOT EXISTS hello_world;
-USE hello_world;
+CREATE DATABASE IF NOT EXISTS appdb;
+USE appdb;
 
 -- Create messages table
 CREATE TABLE IF NOT EXISTS messages (
